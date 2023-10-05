@@ -2,7 +2,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 
-const BASE_URL = "http://localhost:8000/api";
+const BASE_URL = "https://real-estate-mern-backend.vercel.app/api";
 
 
 const TOKEN = localStorage.getItem("access_token");
